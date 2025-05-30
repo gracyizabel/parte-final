@@ -1,0 +1,106 @@
+body {
+  font-family: lobster;
+  margin: 0;
+  background: #ffffff;
+  transition: font-size 0.3s;
+}
+
+header {
+  background-color: #237520;
+  color: rgb(12, 12, 12);
+  padding: 20px;
+  text-align: center;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: rgb(3, 1, 1);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.buttons {
+  text-align: center;
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.aumentar {
+  background-color: #063019;
+  color: rgb(245, 237, 237);
+}
+
+.diminuir {
+  background-color: #580808;
+  color: rgb(252, 253, 253);
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+section {
+  background: rgb(204, 245, 176);
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #115714;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.galeria img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #188328;
+  color: rgb(20, 20, 20);
+}body {
+  transition: background-color 0.5s ease;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #7c1919;
+}
